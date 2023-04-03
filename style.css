@@ -1,0 +1,305 @@
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 img {
+  width: 45px;
+}
+.imageContainer {
+  position: relative;
+  width: 190px;
+  height: 250px;
+}
+.freeShipping {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3px;
+  font-size: 10px;
+}
+#webPage {
+  margin: 0 auto;
+  padding: 30px;
+  justify-content: center;
+}
+.cartButton {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+.cartSize {
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+  background-color: goldenrod;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3px;
+  width: 12px;
+  font-size: 10px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+.cartButton button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+.cartButton button img {
+  height: 60px;
+  width: 60px;
+  transition-duration: 0.25s;
+}
+.cartButton button img:hover {
+  opacity: 0.5;
+  transition-duration: 0.25s;
+}
+.filterButtons {
+  margin-left: auto;
+  margin-right: 0%;
+  width: 250px;
+  float: right;
+  object-fit: cover;
+}
+.filterButtons button {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  padding: 15px;
+  margin: 5px;
+}
+.filterButtons button:hover {
+  border: 1px solid black;
+}
+.mapProducts {
+  width: 800px;
+  margin-right: auto;
+  display: block;
+}
+.products {
+  margin: 5px;
+  float: left;
+  width: 180px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.products:hover .addProduct {
+  background-color: goldenrod;
+  transition-duration: 0.4s;
+}
+.products img {
+  width: 190px;
+  height: 250px;
+}
+.productInfo {
+  text-align: center;
+  margin: 3px;
+  padding: 0px;
+}
+.dealInfo {
+  height: 25px;
+}
+.nameDiv {
+  text-align: center;
+  margin: 3px;
+  color: goldenrod;
+  font-weight: bold;
+  transform: scale(1, -1);
+}
+.addProduct {
+  margin: 0 auto;
+  display: block;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  transition-duration: 0.4s;
+}
+.productNameBox {
+  height: 40px;
+}
+.mapCart {
+  padding-bottom: 25px;
+  display: block;
+  overflow-x: hidden;
+  margin-bottom: 125px;
+}
+.cartDisplay p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  transition: 0.2s;
+  padding-top: 60px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.sidebar::-webkit-scrollbar { 
+  display: none;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  font-size: 36px;
+  margin-right: 50px;
+  text-decoration: none;
+  padding: 8px 8px 8px 32px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidebar .checkoutPage {
+  height: 10%;
+  width: 450px;
+  background-color: rgb(27, 26, 32);
+  z-index: 1;
+  bottom: 0;
+  position: fixed;
+  margin: 0 auto;
+  display: block;
+}
+.subtotal {
+  width: 225px;
+  float: left;
+}
+.subTotalNum {
+  width: 225px;
+  float: right;
+}
+.subtotal p {
+  text-align: left;
+  padding-left: 30px;
+  color: lightgray;
+  opacity: 0.5;
+}
+.subTotalNum p {
+  text-align: right;
+  padding-right: 30px;
+  color: goldenrod;
+}
+.checkoutButton {
+  width: 400px;
+  height: 40px;
+  margin: 0 auto;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.705);
+  color: white;
+  border: none;
+  transition-duration: 0.3;
+}
+.checkoutButton:hover {
+  background-color: black;
+  transition-duration: 0.3;
+}
+.cart {
+  margin: 0 auto;
+  width: 100%;
+  float: left;
+  margin-bottom: 1px;
+  padding: 5px;
+}
+.cart img {
+  height: 100px;
+  width: 76px;
+  padding: 30px;
+  float: left;
+}
+.cart .cartName p {
+  float: left;
+  text-align: left;
+  padding: 5px;
+  width: 200px;
+}
+.cart .cartInfo p {
+  float: left;
+  padding: 5px;
+  color: grey;
+  opacity: 0.5;
+  width: 150px;
+  text-align: left;
+}
+.price p {
+  color: goldenrod;
+  float: right;
+  padding: 25px;
+  width: 45px;
+}
+.itemBreak {
+  height: 1px;
+  background: grey;
+}
+.deletebtn button {
+  position: relative;
+  top: 15px;
+  right: 0px;
+  font-size: 20px;
+  margin-right: 25px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  border: none;
+  background: none;
+  float: right;
+}
+.deletebtn button:hover {
+  color: #555555;
+  transition: 0.3s;
+}
+.filterSelected {
+  background-color: black;
+  color: white;
+}
+.notSelected {
+  background-color: buttonface;
+}
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (max-width: 800px) {
+  .filterButtons {
+    width: 100%;
+  }
+  .mapProducts {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 800px) {
+  #webPage {
+    margin: 0 auto;
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+  }
+  .filterButtons {
+    margin-left: auto;
+    margin-right: 0%;
+    width: 250px;
+    float: right;
+    object-fit: cover;
+  }
+  .mapProducts {
+    width: 800px;
+    margin-right: auto;
+    display: block;
+    float: left;
+  }
+}
