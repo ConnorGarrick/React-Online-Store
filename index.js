@@ -265,6 +265,7 @@ function StorePage() {
         tempFilter.push(cart[k]);
       } else {
         setTotalPrice(-(cart[k].quantity * cart[k].price - totalPrice));
+        setTotalProducts(totalProducts - cart[k].quantity);
         cart[k].quantity = 1;
       }
       k++;
